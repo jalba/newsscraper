@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  .container
+    .bbc
+      .logo
+      ul.news
+        each news in bbc
+          li
+            a(href=bbcUrl+news.href)= news.text
+    .sky
+      .logo
+      ul.news
+        each news in sky
+          li
+            a(href=skyUrl+news.href)= news.text
+

@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #1F4F82;
+  text-decoration: none;
+}
+
+a:visited {
+	color: #4A7194;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.container .bbc,.sky {
+  width: 50%;
+  float: left;
+}
+
+.container div .logo {
+  width: 100%;
+  height: 35px;
+}
+
+.bbc .logo {
+  background: url('../images/bbc-logo.png') no-repeat;
+}
+
+.sky .logo {
+  background: url('../images/sky-logo.png') no-repeat;
+}
+
+ul.news {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+ul.news li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul.news li:first-child {
+	font-size: 24px;
+};
